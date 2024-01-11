@@ -66,6 +66,7 @@ h1{
     color: #343030;
     /* set backgrount color after clicked */
     background-color: rgba(237, 231, 231, 0.984);
+    cursor: pointer;
     
     
 }
@@ -80,6 +81,11 @@ h1{
     cursor: pointer;
     font-size: 20px;
     padding:none;
+}
+
+#reset-btn:hover{
+    transform: scale(1.2);
+
 }
 #msg{
     color: white;
@@ -100,6 +106,9 @@ h1{
     padding:none;
     margin-right: 20px;
 
+}
+#new-btn:hover{
+    transform: scale(1.2);
 }
 
 .msg-container{
@@ -126,7 +135,7 @@ h1{
     display: flex;
     justify-content: left;
     margin-left: 100px;
-    margin-top: 10px;
+    margin-top: 20px;
     
 }
 .img{
@@ -136,7 +145,13 @@ h1{
     border: 2px;
     border-style: solid;
     border-color: aqua;
-    /* overflow: hidden; */
+    color: aqua;
+    
+    font-weight: bolder;
+    font-style: inherit;
+    
+
+   
 
     
 }
@@ -149,3 +164,9 @@ h1{
 
  
  
+
+.icon{
+    color: #fff;
+    font-size: 90px;
+    margin-left: 50px;
+}
