@@ -85,6 +85,7 @@ h1{
 
 #reset-btn:hover{
     transform: scale(1.2);
+    background-color: blue;
 
 }
 #msg{
@@ -109,6 +110,7 @@ h1{
 }
 #new-btn:hover{
     transform: scale(1.2);
+    background-color: blue;
 }
 
 .msg-container{
