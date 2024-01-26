@@ -142,9 +142,12 @@ h1{
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    border: 2px;
+    border: 3px;
     border-style: solid;
-    border-color: aqua;
+    border-top-color: aqua;
+    border-right-color:rgb(109, 53, 192);
+    border-bottom-color: rgb(93, 235, 235);
+    border-left-color:rgb(25, 198, 51) ;
     color: aqua;
     
     font-weight: bolder;
